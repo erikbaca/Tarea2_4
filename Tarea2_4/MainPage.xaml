@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             
+             x:Class="Tarea2_4.MainPage">
+
+    <StackLayout>
+        <Label Text="Tarea 2.4 VIDEO" FontSize="Title" HorizontalTextAlignment="Center" x:Name="lblTitulo"/>
+
+        <Entry Placeholder="descripcion" x:Name="txtDescripcion" />
+        <Button x:Name="btnGrabar" Text="Grabar Video" Clicked="btnGrabar_Clicked"/>
+        <Button x:Name="btnGuardar" Text="Salvar" Clicked="btnGuardar_Clicked"/>
+        <Button x:Name="btnLista" Text="Lista" Clicked="btnLista_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
